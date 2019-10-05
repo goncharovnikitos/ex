@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+}
+
+.menu {
+	background:green;
+	color: white;
+	margin-bottom:0;
+	padding:2px;
+}
+.menu2 {
+	background:#006400;
+	color: white;
+	margin-bottom:0;
+}
+
+.content {
+	position: relative;
+	margin:0 70px;
+}
+
+
+
+
+.menu-item2{
+	position: absolute;
+	right: 0;
+	top:0;
+	text-align: right;
+	}
+.menu-item-fot{
+		position: absolute;
+		right: 0;
+		bottom:0;
+		text-align: right;
+		}
+/*li{ /*Синтаксис?
+	display:inline-block;
+}*/
+
+a{
+	color:#00FF7F;
+}
+/*
+.a:hover{
+	color:blue;
+}
+.a:hover{
+	color:blue;
+}*/
+.name-titl {
+    background-color: #2E8B57;
+    color:white;
+    height:80px;
+    font-size: 20px;
+    font-family: Arial;
+    /*display:inline-block;*/
+}
+.name-titl .content{
+	top:12px;
+}
+.navig .content > a {
+	padding:10px 0;
+	display:inline-block;		
+	margin-right: 30px;
+	color:black;
+	text-decoration: none;
+}
+
+.navig{
+	background-color: #8FBC8F;
+	/*border: 3px solid #fff;*/
+}
+.block-right{
+    background-color: #C0C0C0;
+    margin-bottom: 10px;
+    width: 250px;
+	float: right;
+	padding-top:10px;
+}
+.block-right a{
+	text-decoration:none;
+	color:black;
+}
+
+.block-right li{
+	list-style-type: none;
+}
+footer li{
+	list-style-type: none;
+}
+footer a{
+	text-decoration:none;
+	color:white;
+}
+footer p{
+	padding-left:30px;
+	font-weight:bold;
+	color:lime;
+
+}
+.block-right p{
+	padding-left:14px;
+	font-weight:bold;
+}
+
+.block-left{
+	margin-right:250px;
+	padding-top:10px;
+
+	/* background-color: yellow;*/
+}
+.block-left .block-left-item{
+ border-left: 2px solid green;
+ margin-left:35px;
+ padding-left:10px;
+}
+
+.block-left-item2{
+	margin-left:10px;
+}
+h1{
+	margin-bottom: 3px;
+	margin-top:0;
+}
+h4{
+	margin-bottom: 5px;
+}
+h3{
+	margin-bottom:5px;
+}
+.block-right p{
+	margin-bottom: 5px;
+	margin-left:5px;
+}
+.block-right ul{
+	margin-top: 5px;
+}
+/*.fot1 {
+	
+    padding: 5px; 
+    float: left; 
+    width: 200px; 
+   }
+.fot2 {
+    margin-left:15px;
+    padding: 5px; 
+    width: 300px; 
+    float: left; 
+   }*/
+.menu2{
+	padding:10px 0;		
+	color:black;
+	text-decoration: none;
+}
+ .fot{
+	 display:inline-block;
+ } 
+ 
