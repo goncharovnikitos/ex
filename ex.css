@@ -19,6 +19,11 @@ body {
 	margin:0 70px;
 }
 
+/*.content{
+	max-width: 12px;
+	margin:0 auto;
+}*/
+
 
 
 
@@ -78,6 +83,9 @@ a{
 	float: right;
 	padding-top:10px;
 }
+.block-item{
+	margin-bottom:20px;
+}
 .block-right a{
 	text-decoration:none;
 	color:black;
@@ -94,7 +102,6 @@ footer a{
 	color:white;
 }
 footer p{
-	padding-left:30px;
 	font-weight:bold;
 	color:lime;
 
@@ -105,7 +112,7 @@ footer p{
 }
 
 .block-left{
-	margin-right:250px;
+	margin-right:354px;
 	padding-top:10px;
 
 	/* background-color: yellow;*/
@@ -116,6 +123,10 @@ footer p{
  padding-left:10px;
 }
 
+.block-left .block-left-item-points{
+margin-left:35px;
+padding-left:10px;
+}
 .block-left-item2{
 	margin-left:10px;
 }
@@ -129,12 +140,43 @@ h4{
 h3{
 	margin-bottom:5px;
 }
-.block-right p{
+
+.block-right{
+	padding: 50px 30px;
+}
+
+
+/*.block-right p{
 	margin-bottom: 5px;
 	margin-left:5px;
-}
-.block-right ul{
+}*/
+/*.block-right ul{
 	margin-top: 5px;
+}*/
+ul{
+	padding: 0;
+	margin:0;
+}
+
+
+.category-item{
+	margin-bottom: 15px;
+}
+
+.subcategories{
+	padding-left: 15px;
+}
+
+.category-name{
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+
+.block-name{
+	font-weight: bold;
+	margin-bottom:5px;
+	font-size: 32px;
+
 }
 /*.fot1 {
 	
@@ -156,8 +198,12 @@ h3{
 }
  .fot{
 	 float:left;
+	 padding:15px 20px  15px 0px;
  } 
 
  .menu2 .content .fot:last-child {
 float:right;
+ }
+ .ol{
+	padding-left: 0;
  }
